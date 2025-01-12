@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Create a directory for downloads
-DOWNLOAD_DIR = r'C:\Users\Msangi\Documents\My boy Jack\downloads'
+DOWNLOAD_DIR ="Download file directory"
 
 # Remove the existing directory if it exists
 if os.path.exists(DOWNLOAD_DIR):
@@ -187,7 +187,7 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main function to run the bot
 def main():
-    TOKEN = '7264844505:AAGY5vMdy5nsuMJ8BRg0JYQkiDIsbj36J-g'  # Replace with your bot token
+    TOKEN = 'BOT TOKEN'  # Replace with your bot token
     application = ApplicationBuilder().token(TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
