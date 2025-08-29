@@ -9,4 +9,4 @@ After sending a Csv file of a horse racing card then the bot does its analysis t
 
 
 keep in mind horces coming out of spells are not well prepaired to win
-  contact hashimmsangi007@gmail.com
+  contact Stevenalukwe@gmail.com
